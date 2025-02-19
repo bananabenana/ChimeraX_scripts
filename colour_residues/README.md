@@ -1,4 +1,4 @@
-# residue_structure_colour_scripts
+# Colouring protein structure residues
 Ever wanted to colour a 3D protein structure as a structure heatmap, programatically? Well now you can.
 
 ## Quick usage
