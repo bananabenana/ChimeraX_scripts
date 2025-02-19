@@ -39,6 +39,9 @@ runscript "chimeraX_colour_residues.py" "lddt_colour" "structures" "lddt_conserv
 runscript "chimeraX_colour_residues.py" "conservation_colour" "structures" "lddt_conservation_scores.tsv"
 ```
 
+## Citation
+https://doi.org/10.5281/zenodo.14891323
+
 ## Author
 
 - Ben Vezina
