@@ -1,4 +1,5 @@
 # Aligning multiple protein structures and optionally highlight key residues
+This script allows you to perform a protein structural alignment in Chimera across as many structures as you want. Simply put them in a directory and run this tool.
 
 ## Quick usage
 
