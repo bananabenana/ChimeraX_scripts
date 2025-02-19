@@ -1,16 +1,32 @@
-# Aligning multiple protein structures
+# Aligning multiple protein structures and optionally highlight key residues
 
 ## Quick usage
 
 The script takes the following basic arguments inside the ChimeraX command line:
 ```python
+# Align all structures
 runscript "chimeraX_align_structures.py" <directory containing structures>
+
+# Align all structures and highlight key residues
+runscript "chimeraX_align_structures.py" <directory containing structures> <tab-delimited file containing residues to highlight>
 ```
 
 ## Usage
 
 ### File requirements
 - Desired 3D structures you want to align, within a single directory
+- Optional tab-delimited file with `Residue_position` and `colour` columns
+
+Example tab-delimited file:
+|Residue_position|colour|
+|---|---|
+|30|#DB9D85|
+|31|#DB9D85|
+|87|#DB9D85|
+|150|#DB9D85|
+|196|#DB9D85|
+
+
 
 ### Steps
 1. Open ChimeraX
@@ -19,6 +35,9 @@ runscript "chimeraX_align_structures.py" <directory containing structures>
 ```python
 # Align all structures inside a directory and save the output
 runscript "chimeraX_align_structures.py" "structures"
+
+# Align all structures inside a directory and save the output
+runscript "chimeraX_align_structures.py" "structures" "highlight_residues.tsv"
 ```
 
 ## Authors
