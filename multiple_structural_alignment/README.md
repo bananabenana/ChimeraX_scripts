@@ -16,7 +16,7 @@ runscript "chimeraX_align_structures.py" <directory containing structures> <tab-
 
 ### File requirements
 - Desired 3D structures you want to align, within a single directory
-- Optional tab-delimited file with `Residue_position` and `colour` columns
+- (Optional) tab-delimited file with `Residue_position` and `colour` columns
 
 Example tab-delimited file:
 |Residue_position|colour|
