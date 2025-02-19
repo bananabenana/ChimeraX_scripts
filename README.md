@@ -1,6 +1,6 @@
 # This repo contains several scripts for use with the incredible ChimeraX
-- Ever wanted to colour a 3D protein structure as a structure heatmap, programatically? Well now you can!
-- Ever wanted to align an entire stack of 3D structures in one go and get that output alignment file? Well now you can!
+- Ever wanted to colour a 3D protein structure as a structure heatmap, programatically? [Well now you can!](https://github.com/bananabenana/ChimeraX_scripts/tree/main/colour_residues)
+- Ever wanted to align an entire stack of 3D structures in one go and get that output alignment file? [Well now you can!](https://github.com/bananabenana/ChimeraX_scripts/tree/main/multiple_structural_alignment)
 
 ## Citation
 Zenodo link to come
