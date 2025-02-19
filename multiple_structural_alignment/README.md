@@ -53,6 +53,10 @@ runscript "chimeraX_align_structures.py" "structures" "highlight_residues.tsv"
 |protein_1.pdb, chain A (#1)|protein_4.pdb, chain A (#4)|1064.8|226|1.387|220|0.353|
 
 
+## Citation
+https://doi.org/10.5281/zenodo.14891323
+
+
 ## Authors
 
 - Ben Vezina
