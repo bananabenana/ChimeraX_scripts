@@ -42,6 +42,17 @@ runscript "chimeraX_align_structures.py" "structures"
 runscript "chimeraX_align_structures.py" "structures" "highlight_residues.tsv"
 ```
 
+## Outputs
+- Each input `.pdb` file will be output as an aligned (reorientated) file inside an `aligned` directory
+- `chimeraX_rmsd_results.tsv` which looks like this:
+
+|reference_structure|aligned_structure|matchmaker_alignment_score|atom_pairs|rmsd_angstrom|pruned_atom_pairs|pruned_rmsd_angstrom|
+|---|---|---|---|---|---|---|
+|protein_1.pdb, chain A (#1)|protein_2.pdb, chain A (#2)|1193.1|228|0.342|227|0.307|
+|protein_1.pdb, chain A (#1)|protein_3.pdb, chain A (#3)|1071.6|226|1.152|221|0.225|
+|protein_1.pdb, chain A (#1)|protein_4.pdb, chain A (#4)|1064.8|226|1.387|220|0.353|
+
+
 ## Authors
 
 - Ben Vezina
