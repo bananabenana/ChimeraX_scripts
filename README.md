@@ -10,7 +10,7 @@
 
 
 ## Citation
-Zenodo link to come
+https://doi.org/10.5281/zenodo.14891323
 
 ## Authors
 - Ben Vezina
