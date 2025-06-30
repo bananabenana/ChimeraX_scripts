@@ -1,5 +1,5 @@
 # Colouring protein structure residues
-This script allows you to craete a protein structure heatmap, colouring by residue programatically.
+This script allows you to create a protein structure heatmap, colouring by residue programatically.
 ![all_52_conservation](https://github.com/user-attachments/assets/1d3a6401-a957-490f-8cd3-bcddedef8053)
 
 ## Quick usage
