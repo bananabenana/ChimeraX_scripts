@@ -54,7 +54,7 @@ runscript "chimeraX_align_structures.py" "structures" "highlight_residues.tsv"
 
 
 ## Citation
-https://doi.org/10.5281/zenodo.14891323
+Please cite: Vezina, B., Morampalli, B.R., Nguyen, HA. et al. The rise and global spread of IMP carbapenemases (1996-2023): a genomic epidemiology study. Nat Commun (2025). https://doi.org/10.1038/s41467-025-66874-7
 
 
 ## Authors
